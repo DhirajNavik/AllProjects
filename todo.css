@@ -1,0 +1,45 @@
+#MainBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+    
+}
+.flexcontainer,.flexcontainer-second{
+    
+    
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    
+}
+.inputCss{
+    cursor: pointer;
+    font-weight: 700;
+    /* flex:1 0 100px; */
+}
+.DateCss{
+    /* flex: 1 0 60px; */
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.AddCss{
+    /* flex: 1 0 60px; */
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.flexcontainer-second{
+    font-weight: 700;
+    padding-top: 10px;
+}
